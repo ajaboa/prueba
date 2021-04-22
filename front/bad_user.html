@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Usuario incorrecto</title>
+		<style>
+		* {
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        }
+
+        body.colorlib-body {
+        padding: 0;
+        margin: 0;
+        }
+
+        .colorlib-body #colorlib-notfound {
+        height:100vh;
+        }
+
+        #colorlib-notfound {
+        position: relative;
+        height: 60vh;
+        }
+
+        #colorlib-notfound .colorlib-notfound {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+        }
+
+        .colorlib-notfound {
+        max-width: 520px;
+        width: 100%;
+        line-height: 1.4;
+        text-align: center;
+        }
+
+        .colorlib-notfound .colorlib-notfound-404 {
+        position: relative;
+        height: 200px;
+        margin: 0px auto 20px;
+        z-index: -1;
+        }
+
+        .colorlib-notfound .colorlib-notfound-404 h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 236px;
+        font-weight: 200;
+        margin: 0px;
+        color: #211b19;
+        text-transform: uppercase;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+        }
+
+        .colorlib-notfound .colorlib-notfound-404 h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 28px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #211b19;
+        background: rgb(255,255,255,0.9);
+        padding: 10px 5px;
+        margin: auto;
+        display: inline-block;
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+        right: 0;
+        }
+
+        .colorlib-notfound .colorlib-notfound-404 h1:after,
+        .colorlib-notfound .colorlib-notfound-404 h1:before,
+        .colorlib-notfound .colorlib-notfound-404 h2:after,
+        .colorlib-notfound .colorlib-notfound-404 h2:before {
+        display:none;
+        }
+
+        .colorlib-notfound a {
+        font-family: 'Montserrat', sans-serif;
+        display: inline-block;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 18px;
+        -webkit-transition: 0.2s all;
+        transition: 0.2s all;
+        width: 100%;
+        padding: 15px;
+        background-color: #535b63;
+        border: 0;
+        box-sizing: border-box;
+        cursor: pointer;
+        font-weight: bold;
+        color: #ffffff;
+        }
+
+        @media only screen and (max-width: 767px) {
+        .colorlib-notfound .colorlib-notfound-404 h1 {
+            font-size: 148px;
+        }
+        }
+
+        @media only screen and (max-width: 480px) {
+        .colorlib-notfound .colorlib-notfound-404 {
+            height: 148px;
+            margin: 0px auto 10px;
+        }
+        .colorlib-notfound .colorlib-notfound-404 h1 {
+            font-size: 86px;
+        }
+        .colorlib-notfound .colorlib-notfound-404 h2 {
+            font-size: 16px;
+        }
+        .colorlib-notfound a {
+            padding: 7px 15px;
+            font-size: 14px;
+        }
+        }
+
+        @media only screen and (max-height:600px){
+        #colorlib-notfound {
+            height:100vh;
+        }
+        }
+		</style>
+	</head>
+	<body>
+        <div id="colorlib-notfound">
+            <div class="colorlib-notfound">
+                <div class="colorlib-notfound-404">
+                    <h1 id="colorlib_404_customizer_page_heading">OOPS!</h1>
+                    <h2 id="colorlib_404_customizer_content">Las credenciales que ingresó no son correctas.</h2>
+                </div>
+                <a href="index.html"
+                id="colorlib_404_customizer_button_text">Volver al inicio</a>
+            </div>
+        </div>
+	</body>
+</html>
